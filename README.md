@@ -46,8 +46,11 @@ Contributions are welcome! Feel free to:
  - Optimize code performance.
  - To contribute:
    1.Fork this repository.
-   2.Create a new branch (feature-xyz).
+   
+   2.Create a new branch.
+   
    3.Commit your changes.
+   
    4.Open a Pull Request.
 
 ---
