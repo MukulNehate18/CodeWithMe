@@ -38,19 +38,20 @@ This repository is structured into different categories based on the level and t
 ---
 
 🤝 Contributions
+
 Contributions are welcome! Feel free to:
 
  - Improve existing solutions.
  - Add new problem solutions.
  - Optimize code performance.
  - To contribute:
-
-Fork this repository.
- - Create a new branch (feature-xyz).
- - Commit your changes.
- - Open a Pull Request.
+   1.Fork this repository.
+   2.Create a new branch (feature-xyz).
+   3.Commit your changes.
+   4.Open a Pull Request.
 
 ---
   
 ⭐ Support
+
   ~ If you find this repository helpful, consider giving it a ⭐ star to keep me motivated! 😊
