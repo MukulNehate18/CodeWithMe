@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 //Problem Statement: check if the sentence is pangram.
 public class Panagram {
-    private static boolean pangram(char[] a){
+    private static boolean pangram(String av){
+        char[] a=av.toCharArray();
         char ch='a';
         boolean[] fo=new boolean[26];
         char[] az=new char[26];
@@ -31,7 +32,6 @@ public class Panagram {
     }
     public static void main(String[] args) {
         String a="qwertyuiopasdfghjklzxcvbnm";
-        char[] av=a.toCharArray();
-        System.out.println(pangram(av));
+        System.out.println(pangram(a));
     }
 }

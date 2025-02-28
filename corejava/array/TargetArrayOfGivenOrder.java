@@ -17,11 +17,25 @@ public class TargetArrayOfGivenOrder {
         return target;
     }
     public static void main(String[] args) {
-        int[] num={1, 2, 3, 4, 0};
-        int[] index={0, 1, 2, 3, 0};
+        int[] num={4, 2, 1, 1};
+        int[] index={0, 0, 2, 0};
 
         int[] target= target(num, index);
         System.out.println(Arrays.toString(target));
 
     }
 }
+
+//List<Integer> targetList = new ArrayList<>();
+//
+//        for (int i = 0; i < num.length; i++) {
+//            targetList.add(index[i], num[i]);  // Efficiently inserts at the correct position
+//        }
+//
+//        // Convert List to Array
+//        int[] target = new int[num.length];
+//        for (int i = 0; i < num.length; i++) {
+//            target[i] = targetList.get(i);
+//        }
+//
+//        return target;

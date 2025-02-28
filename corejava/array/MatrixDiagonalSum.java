@@ -3,9 +3,9 @@ package corejava.array;
 public class MatrixDiagonalSum {
     public static void main(String[] args) {
         int[][] mat={
-                {1, 2, 3, 1},
-                {4, 5, 6, 1},
-                {7, 8, 9, 1}
+                {1, 1, 1, 1},
+                {1, 1, 1, 1},
+                {1, 1, 1, 1}
         };
         int[] length= rowLength(mat);
         sumDiagonal(mat, length);
