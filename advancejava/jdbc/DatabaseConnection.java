@@ -1,7 +1,7 @@
 package advancejava.jdbc;
 import java.sql.*;
 public class DatabaseConnection {
-    public static Connection con = null;
+    private static Connection con = null;
     public static Connection getConnection() {
         if(con == null) {
             try {
@@ -11,6 +11,7 @@ public class DatabaseConnection {
             } catch (SQLException | ClassNotFoundException e) {
                 System.out.println(e.getMessage());
             }
+        }else{
             return con;
         }
         return con;
